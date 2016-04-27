@@ -1,4 +1,4 @@
-Go Game with search log
+Go Game with search log<br>
 We are NINANO team in Capstone project in Sogang.
 
 We make Go_Game record search page with node.js
