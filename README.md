@@ -1,7 +1,7 @@
 Go Game with search log<br>
 We are NINANO team in Capstone project in Sogang.
 
-We make Go_Game record search page with node.js
+We make Go_Game record search page with node.js<br>
 by using https://github.com/gferrin/Go, we implemente real Go game.
 
 
