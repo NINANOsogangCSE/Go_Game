@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Go Game</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="game.css"/>
+		<script type="text/javascript" src="board.js">
+		</script>
+		<script type="text/javascript" src="legal.js"></script>
+		<script src='/socket.io/socket.io.js'></script>
+	</head>
+	<body>
+
+		<center><p>
+			<H1>{{TITLE}}</H1>
+		<form id='sendRecord' method='get'>
+			White : <input type='text' name='white' value='{{W}}' readonly>
+			vs Black : <input type='text' name='black' value='{{B}}' readonly>
+			<input type='submit' onclick='submitRecord()' value='Submit the Record of Go' style='font-size:20px;'>
+	</form></p></center>
+		<div id="board">
+		</div><br>
+	</body>
+	<footer>
+	</footer>
+</html>
