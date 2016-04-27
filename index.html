@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+
+				width :auto;
+				height :auto;
+
+				background-image: url('canvas.jpg');
+				background-size: cover;
+				background-repeat: yes-repeat;
+				background-color: #D9E5ff;
+			}
+
+			h2{
+
+				color : red;
+				background-size: cover;
+
+			}
+			label{
+				display: inline-block;
+				color : white;
+				text-align: right;
+				width:100px;
+			}
+			#wrapper{
+				text-align: right;
+				margin-top: 40%;
+				margin-right: 10%;	
+			}
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h2> Capstone Design 1 
+
+		</h2>
+
+
+		<div id="wrapper">
+			<form method='get' action="/">
+				<label>Player 1</label>
+
+				<input type='text' name="white">
+				<select name="part" style=width:90px disabled>
+					<option value='white'>White
+					</option>
+				</select>
+
+				<BR>
+
+				<label>Player 2 </label>
+				<input type='text' name="black">
+
+				<select name="part2" style=width:90px disabled>
+					<option value='black'>Black
+					</option>
+				</select>
+
+				<BR>
+				<label>Game Title</label>
+				<input type='text' name="gameTitle">
+				<input type='submit' value='start' style=width:90px>
+				<Br>
+			</form>
+
+		</div>
+
+	</body>
+
+</html>
